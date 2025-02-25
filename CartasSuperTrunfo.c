@@ -43,7 +43,22 @@
       printf("Digite pontos turísticos da cidade: \n");
       scanf("%d", &pontosturisticos2);
 
-    
+
+     //imprimindo carta 1 e carta 2
+ 
+         printf("Dados da Carta %s:\n", codigo1);        
+         printf("População: %d habitantes\n", populacao1);
+         printf("Área: %.2f km²\n", area1);
+         printf("PIB: %.2f bilhões de reais\n", pib1);
+         printf("Número de pontos turísticos: %d\n", pontosturisticos1);
+ 
+         printf("\nCarta 2\n"); 
+         printf("Dados da Carta %s:\n", codigo2);        
+         printf("População: %d habitantes\n", populacao2);
+         printf("Área: %.2f km²\n", area2);
+         printf("PIB: %.2f bilhões de reais\n", pib2);
+         printf("Número de pontos turísticos: %d\n", pontosturisticos2);
+  
 
 
 
